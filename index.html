@@ -1,0 +1,141 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+       
+<head></head>
+
+
+
+
+    <title> Hello this you know who</title>
+
+
+
+
+
+<meta charset="UFT-8">
+<meta name="description  content="contains ifo about page>.
+<meta name="author" content="Marvin"
+
+           
+
+    <h1>Welcome to my page</h1>
+    <p>Welcome to <em>my</em> brand new website. This site will be my <strong>new<strong> home on the web.</p>
+
+              <a href="https://blogging.com/how-to-start-a-blog/">Your Link Text Here </a>    
+
+              <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+              <link rel="stylesheet" href="style.css">
+    </head>
+<body id="body">
+            <script src="index.js"></script>
+            <br>
+            <br>
+            <br>
+              <form method="post" action="something.php" name="
+              myForm"></form>
+            <div> 
+                 <label>first Name</label>
+                 <input type="text" name="firstName" id="
+                 firstName" />
+
+
+
+                 <div>
+                  <label>last Name</label>
+                  <input type="text" name="lastName" id="
+                  lastName" />
+                 </div>
+
+
+
+                 <label>Background</label>
+                 <select name="background" id="background"
+                 onchange="changeBackground(this)">
+
+
+                 <option value="Blue">Blue</option>
+                 <option value="red">Red</option>
+                 <option value="Green">Green</option>
+
+
+               
+
+          <div class="container">
+              <h1 id="time"></h1>
+              <button onclick="showDate()">Show Date</button>  
+
+              <input type="submit"value="Submit" />
+     </div>
+            
+            <script>
+
+            function changeBackground(x){
+              console.log(x.value);
+              var body = document.getElementById('body');
+              body.style.backgroundColor = x.value;
+            }
+
+
+              function showDate(){
+                var time = document.getElementById('time');
+                time.innerHTML = Date();
+              }
+
+              
+            </script>
+
+
+<div class="container-5">
+  <h2>Challenge 5: Blackjack</h2>
+  <h3><span id="blackjack-result">Lets play</span></h3>
+  
+
+<div class="flex-blackjack-row-1">
+ <div id="your-box">
+   <h2>You: <span id="your-blackjack-result">0</span></h2>
+     </div>
+
+ <div id="dealer-box">
+     <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+ </div>
+ </div>
+    <div class="flex-blackjack-row-2">
+      <div>
+          <button class="btn-lg-primary mr-2" id="blackjack-hit-button">Hit</button>
+          <button class="btn-lg-warning mr-2" id="blackjack-stand-button">Stand</button>
+          <button class="btn-lg-danger" id="blackjack-deal-button">Deal</button>
+    </div>
+</div>
+
+ <div class="flex-blackjack-row-3">
+         <table>  
+            <tr>
+             <th>Wins</th>
+             <th>Losses</th>
+             <th>Draws</th>
+           </tr>
+
+           <tr>
+              <td><span id="wins">0</span></td>
+              <td><span id="losses">0</span></td>
+              <td><span id="draws">0</span></td>
+           </tr>
+           
+     </table>
+
+   </div>
+ </div>
+
+ <script  src="script.js"></script> 
+</body>
+</html>
+
+    </body> 
+
+
+
+ </html>       
